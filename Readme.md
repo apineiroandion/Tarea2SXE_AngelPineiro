@@ -64,3 +64,9 @@ Hacemos ping al contenedor 'dam_alp1' con el siguiente comando.
 
     ```docker exec -it dam_alp2 ping
 ![apartado5.png](images/apartado5.png)
+
+### 6. Sal del terminal, ¿que ocurrió con el contenedor?
+
+Salimos del terminal con el comando 'exit'. El contenedor sigue en ejecución.
+
+    ```docker ps -a```
