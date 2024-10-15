@@ -18,3 +18,16 @@ Comprobamos que la imagen se ha descargado correctamente con el siguiente comand
 
     ```docker images```
 ![apartado1.png](images/apartado1.png)
+### 2. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
+Creamos un contenedor sin nombre con el siguiente comando.
+
+    ```docker run -it alpine```
+
+Comprobamos que el contenedor se ha creado correctamente con el siguiente comando.
+
+    ```docker ps -a```
+
+Obtenemos el nombre del contenedor con el siguiente comando.
+
+    ```docker ps -a --format "{{.Names}}"```
+![apartado2.png](images/apartado2.png)
