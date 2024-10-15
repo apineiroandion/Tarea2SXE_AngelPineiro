@@ -17,3 +17,4 @@ En primer lugar descargamos la imagen de alpine con el siguiente comando.
 Comprobamos que la imagen se ha descargado correctamente con el siguiente comando.
 
     ```docker images```
+![apartado1.png](images/apartado1.png)
