@@ -70,3 +70,10 @@ Hacemos ping al contenedor 'dam_alp1' con el siguiente comando.
 Salimos del terminal con el comando 'exit'. El contenedor sigue en ejecución.
 
     ```docker ps -a```
+
+### 7. ¿Cuanta memoria en el disco duro ocupaste?
+
+Comprobamos la memoria ocupada en el disco duro con el siguiente comando.
+
+    ```docker system df```
+![apartado7.png](images/apartado7.png)
