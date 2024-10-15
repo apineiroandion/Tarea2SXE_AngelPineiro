@@ -31,3 +31,12 @@ Obtenemos el nombre del contenedor con el siguiente comando.
 
     ```docker ps -a --format "{{.Names}}"```
 ![apartado2.png](images/apartado2.png)
+### 3. Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
+Creamos un contenedor con el nombre 'dam_alp1' con el siguiente comando.
+
+    ```docker run -it --name dam_alp1 alpine```
+
+Accedemos al contenedor con el siguiente comando.
+
+    ```docker exec -it dam_alp1 /bin/sh```
+![apartado3.png](images/apartado3.png)
