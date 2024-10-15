@@ -50,3 +50,17 @@ Hacemos ping a google.com con el siguiente comando.
 
     ```ping google.com```
 ![apartado4.png](images/apartado4.png)
+
+### 5. Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+Creamos un contenedor con el nombre 'dam_alp2' con el siguiente comando.
+
+    ```docker run -it --name dam_alp2 alpine```
+
+Comprobamos la ip del contenedor con el siguiente comando.
+
+    ```docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' dam_alp2```
+
+Hacemos ping al contenedor 'dam_alp1' con el siguiente comando.
+
+    ```docker exec -it dam_alp2 ping
+![apartado5.png](images/apartado5.png)
