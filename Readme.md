@@ -40,3 +40,13 @@ Accedemos al contenedor con el siguiente comando.
 
     ```docker exec -it dam_alp1 /bin/sh```
 ![apartado3.png](images/apartado3.png)
+
+### 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
+Comprobamos la ip del contenedor con el siguiente comando.
+
+    ```docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' dam_alp1```
+
+Hacemos ping a google.com con el siguiente comando.
+
+    ```ping google.com```
+![apartado4.png](images/apartado4.png)
