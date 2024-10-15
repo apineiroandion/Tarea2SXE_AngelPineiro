@@ -77,3 +77,11 @@ Comprobamos la memoria ocupada en el disco duro con el siguiente comando.
 
     ```docker system df```
 ![apartado7.png](images/apartado7.png)
+
+
+### 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?
+
+Comprobamos la RAM ocupada por los contenedores con el siguiente comando.
+
+    ```docker stats``` 
+![apartado8.png](images/apartado8.png)
